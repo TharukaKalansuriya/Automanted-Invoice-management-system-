@@ -8,8 +8,8 @@ class Database {
     
     public function __construct($host = 'localhost', 
     $username = 'root',
-    $password = '1234',
-    $database = 'etrackbiz') {
+    $password = '',
+    $database = '') {
         $this->host = $host;
         $this->username = $username;
         $this->password = $password;
