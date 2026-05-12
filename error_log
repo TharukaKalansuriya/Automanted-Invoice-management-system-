@@ -1,0 +1,157 @@
+[16-Sep-2025 23:41:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'etrack33_etrackbiz'@'localhost' (using password: YES) in /home/etrack33/public_html/invoice/Database.php:29
+Stack trace:
+#0 /home/etrack33/public_html/invoice/Database.php(15): Database->connect()
+#1 /home/etrack33/public_html/invoice/index.php(49): Database->__construct()
+#2 {main}
+  thrown in /home/etrack33/public_html/invoice/Database.php on line 29
+[16-Sep-2025 23:42:26 America/Chicago] PHP Fatal error:  Uncaught Exception: Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'etrack33_etrackbiz'@'localhost' (using password: YES) in /home/etrack33/public_html/invoice/Database.php:29
+Stack trace:
+#0 /home/etrack33/public_html/invoice/Database.php(15): Database->connect()
+#1 /home/etrack33/public_html/invoice/index.php(49): Database->__construct()
+#2 {main}
+  thrown in /home/etrack33/public_html/invoice/Database.php on line 29
+[16-Sep-2025 23:44:11 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:15 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:16 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:19 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:20 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:21 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:44:22 America/Chicago] PHP Parse error:  Unmatched '}' in /home/etrack33/public_html/invoice/admin.php on line 22
+[16-Sep-2025 23:49:05 America/Chicago] PHP Fatal error:  Uncaught Exception: Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'etrack33_etrackbiz'@'localhost' (using password: YES) in /home/etrack33/public_html/invoice/Database.php:29
+Stack trace:
+#0 /home/etrack33/public_html/invoice/Database.php(15): Database->connect()
+#1 /home/etrack33/public_html/invoice/index.php(49): Database->__construct()
+#2 {main}
+  thrown in /home/etrack33/public_html/invoice/Database.php on line 29
+[16-Sep-2025 23:49:39 America/Chicago] PHP Fatal error:  Uncaught Exception: Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'etrack33_etrackbiz'@'localhost' (using password: YES) in /home/etrack33/public_html/invoice/Database.php:29
+Stack trace:
+#0 /home/etrack33/public_html/invoice/Database.php(15): Database->connect()
+#1 /home/etrack33/public_html/invoice/index.php(49): Database->__construct()
+#2 {main}
+  thrown in /home/etrack33/public_html/invoice/Database.php on line 29
+[16-Sep-2025 23:57:14 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:57:14 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:57:22 America/Chicago] API Request - Method: GET, Action: get_invoices
+[16-Sep-2025 23:57:24 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:57:24 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:57:51 America/Chicago] API Request - Method: POST, Action: create_invoice
+[16-Sep-2025 23:57:51 America/Chicago] API Input: {"customerName":"Tharuka Kalansuriya","customerPhone":"0775651243","customerAddress":"Welterfreedon Gardens, Ganegoda, Akmeemana","dueDate":"2025-10-17","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000},{"name":"SEO Optimization","qty":1,"rate":25000,"amount":25000},{"name":"test","qty":1,"rate":1234,"amount":1234},{"name":"Web Development","qty":1,"rate":50000,"amount":50000}],"serviceDiscounts":[{"serviceIndex":0,"serviceName":"Mobile App Development","discountName":"Discount for Mobile App Development","discountType":"percentage","discountValue":10,"discountAmount":7500},{"serviceIndex":3,"serviceName":"Web Development","discountName":"Discount for Web Development","discountType":"percentage","discountValue":10,"discountAmount":5000}],"globalDiscountType":"percentage","globalDiscountValue":10,"globalDiscountName":"Ceo","globalDiscountAmount":13873.399999999999636202119290828704833984375,"subtotalAmount":151234,"totalAmount":124860.60000000000582076609134674072265625,"isProforma":true}
+[16-Sep-2025 23:57:51 America/Chicago] API Request - Method: POST, Action: create_invoice
+[16-Sep-2025 23:57:51 America/Chicago] API Input: {"customerName":"Tharuka Kalansuriya","customerPhone":"0775651243","customerAddress":"Welterfreedon Gardens, Ganegoda, Akmeemana","dueDate":"2025-10-17","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000},{"name":"SEO Optimization","qty":1,"rate":25000,"amount":25000},{"name":"test","qty":1,"rate":1234,"amount":1234},{"name":"Web Development","qty":1,"rate":50000,"amount":50000}],"serviceDiscounts":[{"serviceIndex":0,"serviceName":"Mobile App Development","discountName":"Discount for Mobile App Development","discountType":"percentage","discountValue":10,"discountAmount":7500},{"serviceIndex":3,"serviceName":"Web Development","discountName":"Discount for Web Development","discountType":"percentage","discountValue":10,"discountAmount":5000}],"globalDiscountType":"percentage","globalDiscountValue":10,"globalDiscountName":"Ceo","globalDiscountAmount":13873.399999999999636202119290828704833984375,"subtotalAmount":151234,"totalAmount":124860.60000000000582076609134674072265625,"isProforma":false}
+[16-Sep-2025 23:57:52 America/Chicago] API Request - Method: GET, Action: get_invoice
+[16-Sep-2025 23:58:04 America/Chicago] API Request - Method: GET, Action: get_invoices
+[16-Sep-2025 23:58:06 America/Chicago] API Request - Method: DELETE, Action: delete_invoice
+[16-Sep-2025 23:58:07 America/Chicago] API Request - Method: GET, Action: get_invoices
+[16-Sep-2025 23:58:09 America/Chicago] API Request - Method: DELETE, Action: delete_invoice
+[16-Sep-2025 23:58:09 America/Chicago] API Request - Method: GET, Action: get_invoices
+[16-Sep-2025 23:58:11 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:58:11 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:58:14 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:58:14 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:58:16 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:58:16 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:58:22 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:58:22 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:58:24 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:58:24 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:59:40 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:59:40 America/Chicago] Services fetched: 5 services found
+[16-Sep-2025 23:59:42 America/Chicago] API Request - Method: GET, Action: get_services
+[16-Sep-2025 23:59:42 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 00:00:54 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 00:00:54 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 00:00:55 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 00:00:55 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:45:14 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:45:14 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:45:34 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:45:34 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:45:47 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:45:47 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:48:19 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:48:19 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:51:47 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:51:47 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:54:01 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:54:01 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:55:53 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:55:53 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:55:56 America/Chicago] API Request - Method: GET, Action: get_invoices
+[17-Sep-2025 08:55:58 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:55:58 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 08:59:21 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 08:59:21 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 09:01:09 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 09:01:09 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 09:01:30 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 09:01:30 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 09:02:14 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 09:02:15 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 09:02:38 America/Chicago] API Request - Method: GET, Action: get_services
+[17-Sep-2025 09:02:38 America/Chicago] Services fetched: 5 services found
+[17-Sep-2025 09:32:27 America/Chicago] API Request - Method: POST, Action: create_invoice
+[17-Sep-2025 09:32:27 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-17","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":75000,"totalAmount":75000,"isProforma":true}
+[17-Sep-2025 09:32:28 America/Chicago] API Request - Method: POST, Action: create_invoice
+[17-Sep-2025 09:32:28 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-17","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":75000,"totalAmount":75000,"isProforma":false}
+[17-Sep-2025 09:32:28 America/Chicago] API Request - Method: GET, Action: get_invoice
+[22-Sep-2025 09:16:46 America/Chicago] API Request - Method: GET, Action: get_services
+[22-Sep-2025 09:16:46 America/Chicago] Services fetched: 5 services found
+[22-Sep-2025 09:19:13 America/Chicago] API Request - Method: POST, Action: create_invoice
+[22-Sep-2025 09:19:13 America/Chicago] API Input: {"customerName":"Adabera.lk","customerPhone":"+94 78 988 8899","customerAddress":"Sri Lanka","dueDate":"2025-10-10","services":[{"name":"Website Maintenance","qty":1,"rate":30000,"amount":30000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":30000,"totalAmount":30000,"isProforma":true}
+[22-Sep-2025 09:19:14 America/Chicago] API Request - Method: POST, Action: create_invoice
+[22-Sep-2025 09:19:14 America/Chicago] API Input: {"customerName":"Adabera.lk","customerPhone":"+94 78 988 8899","customerAddress":"Sri Lanka","dueDate":"2025-10-10","services":[{"name":"Website Maintenance","qty":1,"rate":30000,"amount":30000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":30000,"totalAmount":30000,"isProforma":false}
+[22-Sep-2025 09:19:14 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 01:20:26 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 01:20:26 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 01:20:32 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 01:20:32 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 01:22:10 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 01:22:10 America/Chicago] API Input: {"customerName":"Shafras","customerPhone":"712108085","customerAddress":"Galle","dueDate":"2025-10-30","services":[{"name":"SEO Optimization","qty":1,"rate":16000,"amount":16000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":16000,"totalAmount":16000,"isProforma":true}
+[30-Sep-2025 01:22:11 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 01:22:11 America/Chicago] API Input: {"customerName":"Shafras","customerPhone":"712108085","customerAddress":"Galle","dueDate":"2025-10-30","services":[{"name":"SEO Optimization","qty":1,"rate":16000,"amount":16000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":16000,"totalAmount":16000,"isProforma":false}
+[30-Sep-2025 01:22:11 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 08:34:59 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 08:34:59 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 08:35:39 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 08:35:48 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 08:36:13 America/Chicago] API Request - Method: PUT, Action: update_invoice_status
+[30-Sep-2025 08:36:13 America/Chicago] API Input: {"status":"Paid"}
+[30-Sep-2025 08:36:13 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 08:36:36 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 08:36:36 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 08:50:54 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 08:50:54 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 08:59:28 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 08:59:28 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 09:00:15 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:00:15 America/Chicago] API Input: {"customerName":"vindya","customerPhone":"771234567","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[],"globalDiscountType":"fixed","globalDiscountValue":500,"globalDiscountName":"special dis","globalDiscountAmount":500,"subtotalAmount":75000,"totalAmount":74500,"isProforma":true}
+[30-Sep-2025 09:00:15 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:00:15 America/Chicago] API Input: {"customerName":"vindya","customerPhone":"771234567","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[],"globalDiscountType":"fixed","globalDiscountValue":500,"globalDiscountName":"special dis","globalDiscountAmount":500,"subtotalAmount":75000,"totalAmount":74500,"isProforma":false}
+[30-Sep-2025 09:00:15 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 09:01:44 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:01:44 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[{"serviceIndex":0,"serviceName":"Mobile App Development","discountName":"Discount for Mobile App Development","discountType":"percentage","discountValue":10,"discountAmount":7500}],"globalDiscountType":"fixed","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":75000,"totalAmount":67500,"isProforma":true}
+[30-Sep-2025 09:01:44 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:01:44 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000}],"serviceDiscounts":[{"serviceIndex":0,"serviceName":"Mobile App Development","discountName":"Discount for Mobile App Development","discountType":"percentage","discountValue":10,"discountAmount":7500}],"globalDiscountType":"fixed","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":75000,"totalAmount":67500,"isProforma":false}
+[30-Sep-2025 09:01:45 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 09:04:08 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 09:04:08 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 09:04:12 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 09:04:16 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 09:05:32 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:05:32 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000},{"name":"SEO Optimization","qty":1,"rate":25000,"amount":25000},{"name":"test","qty":1,"rate":1234,"amount":1234},{"name":"Web Development","qty":1,"rate":50000,"amount":50000},{"name":"Website Maintenance","qty":1,"rate":15000,"amount":15000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":166234,"totalAmount":166234,"isProforma":true}
+[30-Sep-2025 09:05:32 America/Chicago] API Request - Method: POST, Action: create_invoice
+[30-Sep-2025 09:05:32 America/Chicago] API Input: {"customerName":"sachintha upekkha","customerPhone":"0767369331","customerAddress":"No.119 sanhinda pura, wilegoda,","dueDate":"2025-10-30","services":[{"name":"Mobile App Development","qty":1,"rate":75000,"amount":75000},{"name":"SEO Optimization","qty":1,"rate":25000,"amount":25000},{"name":"test","qty":1,"rate":1234,"amount":1234},{"name":"Web Development","qty":1,"rate":50000,"amount":50000},{"name":"Website Maintenance","qty":1,"rate":15000,"amount":15000}],"serviceDiscounts":[],"globalDiscountType":"percentage","globalDiscountValue":0,"globalDiscountName":"Global Discount","globalDiscountAmount":0,"subtotalAmount":166234,"totalAmount":166234,"isProforma":false}
+[30-Sep-2025 09:05:33 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 09:05:39 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 09:06:55 America/Chicago] API Request - Method: PUT, Action: update_invoice_status
+[30-Sep-2025 09:06:55 America/Chicago] API Input: {"status":"Paid"}
+[30-Sep-2025 09:06:56 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 09:07:00 America/Chicago] API Request - Method: GET, Action: get_invoice
+[30-Sep-2025 09:09:39 America/Chicago] API Request - Method: GET, Action: get_services
+[30-Sep-2025 09:09:39 America/Chicago] Services fetched: 5 services found
+[30-Sep-2025 09:10:26 America/Chicago] API Request - Method: GET, Action: get_invoices
+[30-Sep-2025 09:14:32 America/Chicago] API Request - Method: GET, Action: get_invoices
+[01-Oct-2025 01:30:17 America/Chicago] API Request - Method: GET, Action: get_services
+[01-Oct-2025 01:30:17 America/Chicago] Services fetched: 5 services found
+[01-Oct-2025 01:30:46 America/Chicago] API Request - Method: GET, Action: get_services
+[01-Oct-2025 01:30:46 America/Chicago] Services fetched: 5 services found
